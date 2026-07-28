@@ -1,0 +1,14 @@
+{
+
+  "login": "Login",
+  "username": "Username",
+  "password": "Password",
+  "welcome": "Welcome",
+  "logout": "Logout",
+  "privacy": "Privacy Policy",
+  "quick_actions": "Quick Actions",
+  "Received Orders": "Received Orders",
+  "delivery": "Delivery",
+  "pickup": "Pick Up",
+  "Upload Delivery": "Upload Delivery"
+}

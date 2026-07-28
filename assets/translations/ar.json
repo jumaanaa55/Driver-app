@@ -1,0 +1,20 @@
+{
+  "Login": "تسجيل الدخول",
+  "username": "اسم المستخدم",
+  "Password": "كلمة المرور",
+  "Welcome": "مرحباً",
+  "logout": "تسجيل الخروج",
+  "Privacy Policy": "سياسة الخصوصية",
+  "Quick Actions": "الإجراءات السريعة",
+  "Received Orders": "الطلبات السريعة",
+  "delivery": "التوصيل",
+  "pickup": "الاستلام",
+  "upload_delivery": "رفع التسليم",
+  "enter_username": "أدخل اسم المستخدم",
+  "enter_password": "أدخل كلمة المرور",
+  "Welcome Back": "مرحبًا بعودتك",
+  "Tap to continue": "اضغط للمتابعة",
+  "open": "فتح",
+  "Driver": "السائق"
+
+}
