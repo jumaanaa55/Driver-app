@@ -87,7 +87,7 @@ width: 110.w,
 height: 110.w,
 
 decoration: BoxDecoration(
-shape: BoxShape.circle,
+  shape: BoxShape.circle,
 border: Border.all(
 color: AppColors.icon,
 width: 2,

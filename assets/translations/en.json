@@ -10,5 +10,20 @@
   "Received Orders": "Received Orders",
   "delivery": "Delivery",
   "pickup": "Pick Up",
-  "Upload Delivery": "Upload Delivery"
+  "Upload Delivery": "Upload Delivery",
+  "Release Order": "Release Order",
+  "search_orders": "Search orders",
+  "current_orders": "Current Orders",
+  "waiting_orders": "Waiting Orders",
+
+  "in_delivered_cycle": "In Delivered Cycle",
+  "waiting": "Waiting",
+  "delivered": "Delivered",
+  "cancelled": "Cancelled",
+
+  "authorization_number": "Authorization Number",
+  "order_number": "Order Number",
+
+  "no_orders_found": "No orders found."
+
 }

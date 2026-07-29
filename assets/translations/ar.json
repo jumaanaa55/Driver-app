@@ -15,6 +15,21 @@
   "Welcome Back": "مرحبًا بعودتك",
   "Tap to continue": "اضغط للمتابعة",
   "open": "فتح",
-  "Driver": "السائق"
+  "Driver": "السائق",
 
+  "Release Order": "أمر التسليم",
+  "search_orders": "ابحث عن الطلبات",
+  "current_orders": "الطلبات الحالية",
+  "waiting_orders": "الطلبات المنتظرة",
+
+  "in_delivered_cycle": "قيد التوصيل",
+  "waiting": "في الانتظار",
+  "delivered": "تم التسليم",
+  "cancelled": "ملغي",
+
+  "authorization_number": "رقم التفويض",
+  "order_number": "رقم الطلب",
+
+  "no_orders_found": "لا توجد طلبات."
 }
+
