@@ -30,6 +30,9 @@
   "authorization_number": "رقم التفويض",
   "order_number": "رقم الطلب",
 
-  "no_orders_found": "لا توجد طلبات."
+  "no_orders_found": "لا توجد طلبات.",
+
+  "No Orders Found": "لا توجد طلبات",
+  "There are currently no received orders.": "لا توجد طلبات مستلمة حالياً."
 }
 

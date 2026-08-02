@@ -24,6 +24,8 @@
   "authorization_number": "Authorization Number",
   "order_number": "Order Number",
 
-  "no_orders_found": "No orders found."
+  "no_orders_found": "No orders found.",
 
+  "No Orders Found": "No Orders Found",
+  "There are currently no received orders.": "There are currently no received orders."
 }

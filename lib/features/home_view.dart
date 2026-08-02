@@ -6,7 +6,9 @@ import 'package:raya_express_driver/core/constant/app_color.dart';
 import 'package:raya_express_driver/core/theme/theme_cubit.dart';
 import 'package:raya_express_driver/features/login/presentation/login_view.dart';
 import 'package:raya_express_driver/features/notification/notification_view.dart';
-import 'package:raya_express_driver/features/release_order/release_order.dart';
+import 'package:raya_express_driver/features/delivery/release_order.dart';
+import 'package:raya_express_driver/features/received_orders/received_orders_view.dart';
+import 'package:raya_express_driver/features/pick_up/pickup_view.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
@@ -198,6 +200,12 @@ class _HomeViewState extends State<HomeView> {
                         context,
                         icon: Icons.inventory_2_outlined,
                         title: "Received Orders".tr(),
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (_) => const ReceivedOrdersView()),
+                          );
+                        },
                       ),
                     ),
                     SizedBox(height: 12.h),
@@ -224,6 +232,12 @@ class _HomeViewState extends State<HomeView> {
                               context,
                               icon: Icons.location_on_outlined,
                               title: "pickup".tr(),
+                               onTap: () {
+                                 Navigator.push(
+                                 context,
+                                   MaterialPageRoute(builder: (_) => const PickupView()),
+                                );
+                              },
                             ),
                           ),
                         ],
@@ -253,18 +267,26 @@ class _HomeViewState extends State<HomeView> {
       BuildContext context, {
         required IconData icon,
         required String title,
-      }) {
-    return Container(
-      width: double.infinity,
-      padding: EdgeInsets.all(12.w),
-      decoration: BoxDecoration(
-        color: Theme.of(context).cardColor,
+        VoidCallback? onTap,
+      })  {
+    return InkWell(
         borderRadius: BorderRadius.circular(20.r),
-        boxShadow: const [
-          BoxShadow(color: Colors.black12, blurRadius: 10, offset: Offset(0, 4)),
-        ],
-      ),
-      child: Row(
+        onTap: onTap,
+        child: Container(
+          width: double.infinity,
+          padding: EdgeInsets.all(12.w),
+          decoration: BoxDecoration(
+            color: Theme.of(context).cardColor,
+            borderRadius: BorderRadius.circular(20.r),
+            boxShadow: const [
+              BoxShadow(
+                color: Colors.black12,
+                blurRadius: 10,
+                offset: Offset(0, 4),
+              ),
+            ],
+          ),
+          child: Row(
         children: [
           CircleAvatar(
             radius: 24.r,
@@ -298,7 +320,7 @@ class _HomeViewState extends State<HomeView> {
           Icon(Icons.arrow_forward_ios, color: AppColors.primaryBlue, size: 16.sp),
         ],
       ),
-    );
+    ));
   }
 
   // Small Card
